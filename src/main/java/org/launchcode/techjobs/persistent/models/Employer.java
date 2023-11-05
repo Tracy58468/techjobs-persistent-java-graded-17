@@ -41,6 +41,9 @@ public class Employer extends AbstractEntity {
         this.location = location;
     }
 
+    public List<Job> getJobs() { // allows list of employers to be viewed in the controllers
+        return jobs;
+    }
 }
 
 /** Will persist this class in part 2. DONE. **/
